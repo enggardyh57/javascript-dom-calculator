@@ -7,12 +7,13 @@
     <link href="src/output.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="calculator w-md container m-auto flex flex-col bg-slate-300 p-2">
+    <div class="flex justify-center items-center h-screen">
+      <div class="calculator max-w-sm container mx-auto flex flex-col bg-slate-300 p-3 rounded shadow-xl">
       <div class="display text-4xl text-right shadow rounded bg-white p-2">0</div>
       <div class="buttons grid grid-cols-4 my-4 gap-2">
-        <button value="c" class="col-span-2 px-4 py-2 bg-blue-950 text-white text-xl cursor-pointer">C</button>
+        <button value="c" class="col-span-2 px-4 py-2 bg-orange-500 text-white text-xl cursor-pointer">C</button>
         <button value="*" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">x</button>
-        <button value="/" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">/</button>
+        <button value="/" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">÷</button>
         <button value="7" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">7</button>
         <button value="8" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">8</button>
         <button value="9" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">9</button>
@@ -24,10 +25,11 @@
         <button value="1" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">1</button>
         <button value="2" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">2</button>
         <button value="3" class="px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">3</button>
-        <button value="=" class="row-span-2 px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">=</button>
+        <button value="=" class="row-span-2 px-2 py-2 bg-orange-500 text-white text-xl cursor-pointer">=</button>
         <button value="0" class="col-span-2 px-2 py-2 bg-blue-950 text-white text-xl cursor-pointer">0</button>
         <button value="0" class="px-2 py-2 bg-blue-950 text-white text-xl">.</button>
       </div>
+    </div>
     </div>
   </body>
 </html>
